@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+@media screen and (max-width:1024px) {
+
+  
+  #article1 .slide_group .slick-prev {
+    top: 200px
+  }
+  
+  #article1 .slide_group .slick-next {
+    bottom: 200px;
+  }
+
+  #article2 {
+    display: block;
+    overflow: auto;
+  }
+  
+  #article2 ul {
+    max-height: 2100px ;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  #article2 ul li {
+    max-height: 730px;
+    width: 95%;
+    margin: 0 1.2%;
+    display: block;
+    background: #f8f9fa;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 2px;
+    position: relative;
+    overflow: hidden;
+    line-height: 2em;
+    transition: all 0.5;
+  }
+
+}
