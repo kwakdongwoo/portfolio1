@@ -1,7 +1,10 @@
 @charset "utf-8";
 
 @media screen and (max-width:1024px) {
-  #header { height: 72px;}
+  #header {
+    height: 72px;
+  }
+
   #header #nav {
     height: 72px;
     position: relative fixed;
@@ -51,5 +54,32 @@
     font-size: 22px;
     margin: 25px 25px;
   }
+
+
+
+  /* footer */
+
+  #footer .common_row {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #footer h3 {
+    float: none;
+    padding: 10px;
+    color: #828282;
+  }
+
+  #footer .sns {
+    float: none;
+    padding: 10px;
+  }
+
+  #footer .sns p {
+    display: inline-block;
+    padding: 0 8px;
+    transition: all 0.5s;
+  }
+
 
 }
